@@ -1,0 +1,165 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="anasayfa2.master.cs" Inherits="anasayfa2" %>
+
+<!DOCTYPE html>
+
+<html style="background-color: #E9ECE5; width: 1024px; height: 960px;">
+<head runat="server">
+            
+              
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="StyleSheetbuton.css" rel="stylesheet" />
+    <link href="StyleSheetdasd.css" rel="stylesheet" />
+  <link href="StyleSheetgiris.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style8 {
+            height: 2319px;
+            width: 1365px;
+            margin-right: 0px;
+        }
+        .auto-style9 {
+            height: 181px;
+            margin-top: 0px;
+            width: 1202px;
+        }
+        .auto-style10 {
+            width: 1365px;
+            height: 2160px;
+            margin-right: 6px;
+        }
+        .auto-style11 {
+            height: 62px;
+            width: 1075px;
+            margin-top: 0px;
+        }
+        .auto-style12 {
+            width: 1370px;
+            height: 1420px;
+            margin-right: 342px;
+        }
+        .auto-style13 {
+            width: 1363px;
+            height: 596px;
+            margin-top: 15px;
+        }
+        .auto-style14 {
+            margin-left: 5px;
+            width: 1349px;
+            height: 387px;
+        }
+        .auto-style15 {
+            margin-left: 1198px;
+            margin-top: 0px;
+            height: 34px;
+            width: 142px;
+        }
+        </style>
+</head>
+<body style=" width: 1366px; height: 2161px; background-color:#e9ece5; margin-right: 0;">
+<form id="form1" runat="server" class="auto-style10">
+    <div class="auto-style8" style="background-color:#e9ece5" id="endış">
+  
+    <div class="auto-style9"  style="background-position: center top; border-color: #000000; background-image: url('/images/the--Lemon-tree.png'); background-repeat: no-repeat" id="lemontree">
+  <div id="mySidenav" class="mySidenav" style="width: 75px; height: 181px; margin-left: 0px; margin-top: 4px;">
+  <a href="Giris.aspx" id="about" class="about" style='font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif'>GİRİŞ
+      <i class="fa fa-sign-in" style="font-size:20px; margin-left:47px;" ></i>
+  </a>
+  <a href="Kaydol.aspx" id="blog" class="blog" style='font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif'>KAYDOL
+      <i class="fa fa-user" style="font-size:20px; margin-left:28px;"></i>
+  </a>
+  <a href="Hesap.aspx" id="projects" class="projects" style='font-family: "segoe UI", Tahoma, Geneva, Verdana, sans-serif'>HESAP
+      <i class="fa fa-edit" style="font-size:20px; margin-left:41px;"></i>
+  </a>&nbsp;
+      
+        
+ 
+
+     </div>
+          <div class="auto-style15">
+              
+ <a href="Sepet.aspx">
+ <i class="fa fa-shopping-bag" style="width: 14px; height: 19px; margin-top: 0px; font-size: 50px; color:black;"></i>
+          </a>
+     </div>
+        
+
+</div>
+<div class="auto-style11" id="butonlar" style="margin-left:285px;">
+<asp:Button ID="btnanasayfa" CssClass="btn info" runat="server"  style="border-style: groove; margin-left: 40px;" Text="ANASAYFA" OnClick="btnanasayfa_Click1" Font-Bold="True" Font-Names="Segoe UI"  ></asp:Button>
+    <strong>
+<asp:Button ID="btnmenu" CssClass="btn success " runat="server" style="border-style: groove; font-weight: bold;" Text="MENÜ" OnClick="btnmenu_Click1" Font-Names="Segoe UI"  ></asp:Button>
+<asp:Button ID="btngaleri" CssClass="btn info" runat="server" style="border-style:groove; font-weight: bold;" Text="GALERİ" OnClick="btngaleri_Click1" Font-Names="Segoe UI"  ></asp:Button>
+<asp:Button ID="btnsiparis" CssClass="btn success" runat="server" style="border-style:groove; font-weight: bold;" Text="SİPARİŞ" OnClick="btnsiparis_Click1" Font-Names="Segoe UI"  ></asp:Button>
+<asp:Button ID="btniletisim" CssClass="btn info" runat="server"  style="border-style: groove; font-weight: bold;" Text="İLETİŞİM" Width="167px" OnClick="btniletisim_Click1" Font-Names="Segoe UI"  ></asp:Button>
+   </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+</div>
+        
+     <div id="main" class="auto-style12" style="background-color:#e9ece5 ">
+         
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             
+          </asp:ContentPlaceHolder>
+
+
+     </div>
+
+     <div id="footer" class="auto-style13" style="background-color:  #e9ece5">
+           <div>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.691999925278!2d27.841580514957617!3d37.844095779746944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b92b688edc5375%3A0x66ec6ebe44927704!2sKurtulu%C5%9F+Mahallesi%2C+2019.+Sk.+13-1%2C+09020+Efeler%2FAyd%C4%B1n!5e0!3m2!1str!2str!4v1527071795141"  frameborder="0" style="border-style: none; border-color: inherit; border-width: 0; margin-top: 0px;"  class="auto-style14"></iframe>
+           </div>
+            
+         <div class="auto-style29" style="height: 259px; margin-top: 142px; width: 596px; margin-left: 263px;">
+                 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:dbo_projeödeviConnectionString3 %>" SelectCommand="SELECT [iletisimNumara], [iletisimAdres], [iletisimMail], [iletisimSaat] FROM [Table_iletisim]"></asp:SqlDataSource>
+             <asp:DataList ID="DataList1" runat="server" DataSourceID="SqlDataSource2" CssClass="auto-style34" Height="16px" Width="30px" style="margin-left: 239px; margin-top: 7px; margin-bottom: 0px; margin-right: 0px;" Font-Names="Segoe UI">
+                 <ItemTemplate>
+                     <div style="width:820px;">
+                         <div>
+                                 &nbsp;<i class="fa fa-phone" style="font-size:36px">&nbsp;</i> &nbsp; <asp:Label ID="iletisimNumaraLabel" style="font-size:20px;font-family:'Segoe UI'" runat="server" Text='<%# Eval("iletisimNumara") %>' />
+                             <br />
+                             <br />
+                           </div>
+                           <div> &nbsp;<i class="fa fa-map-marker" style="font-size:43px">&nbsp;</i> &nbsp; <asp:Label ID="iletisimAdresLabel" runat="server" style="font-size:20px; font-family:'Segoe UI'" Text='<%# Eval("iletisimAdres") %>' />
+                             <br />
+                             <br />
+                           
+                         </div>
+                         <div>
+                                <i class="fa fa-inbox" style="font-size:40px">&nbsp; </i>&nbsp;&nbsp; <asp:Label ID="iletisimMailLabel" style="font-size:20px;font-family:'Segoe UI'" runat="server" Text='<%# Eval("iletisimMail") %>' />
+                             <br />
+                             <br />
+                   </div>
+                         <div>
+                                <i class="fa fa-clock-o" style="font-size:40px">&nbsp; </i>&nbsp;&nbsp; <asp:Label ID="iletisimSaatLabel" style="font-size:20px; font-family:'Segoe UI'" runat="server" Text='<%# Eval("iletisimSaat") %>' />
+                      
+                             <br />
+                      
+                             <br />
+                      
+                                Copyright © All Rights Reserved. lemontree.com<br />
+                      
+                             </div>
+                         </div>
+                 </ItemTemplate>
+             </asp:DataList>
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+             
+
+                  
+         </div>
+      </div>
+ 
+          
+             
+     
+  </div>
+   
+  
+</form>
+</body>
+
+</html>
+

@@ -1,0 +1,67 @@
+﻿.btn {
+    border: none; /* Remove borders */
+    color: black; /* Add a text color */
+    padding: 18px 30px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    
+}
+
+.success {
+    background-color: #c0dfd9;
+    font-family:'Segoe UI';
+    
+}
+
+    .success:hover {
+        background-color: #f1e95f;
+    }
+
+
+.info {
+    background-color: #c0dfd9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+    .info:hover {
+        background: #39aec8;
+    }
+
+
+
+
+.button {
+    padding: 10px 15px;
+    font-size: 18 px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #edd9c0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 7px #999;
+}
+
+    .button:hover {
+        background-color: #173e43;
+    }
+
+    .button:active {
+        background-color: #000000;
+        box-shadow: 0 5px #000000;
+        transform: translateY(4px);
+    }
+
+
+
+
+.transparent {
+    width: auto;
+    height: auto;
+    background-color: #000000;
+    opacity: 0.4;
+    filter: alpha(opacity=60);
+    /* Rounded Corners */
+}

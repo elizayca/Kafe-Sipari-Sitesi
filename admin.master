@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html>
+
+<html style="background-color: #E9ECE5">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    
+    <style type="text/css">
+        .auto-style1 {
+            height: 707px;
+            margin-top: 0px;
+        }
+        .auto-style5 {
+            width: 963px;
+            height: 706px;
+            margin-top: 2px;
+            margin-left: 41px;
+            margin-right: 6px;
+        }
+        .auto-style10 {
+            height: 106px;
+            width: 216px;
+            margin-top: 45px;
+            margin-left: 0px;
+        }
+        .auto-style11 {
+            width: 611px;
+            height: 489px;
+            margin-left: 5px;
+            margin-top: 0px;
+        }
+        .auto-style12 {
+            height: 490px;
+            width: 612px;
+            margin-left: 0px;
+        }
+        .auto-style15 {
+            font-size: large;
+        }
+        </style>
+</head>
+<body style="height: 709px">
+    <form id="form1" runat="server" style="background-color: #E9ECE5">
+    <div class="auto-style1" style="background-color:#e9ece5">
+
+        <div class="auto-style5">
+           
+             
+                <div class="auto-style10">
+                    &nbsp; <a href="KayitliKullanici.aspx">
+                    <asp:Label ID="Label1" runat="server" Text="Kayıtlı Kullanıcılar" CssClass="auto-style15"></asp:Label></a>
+                    <br />
+                    <br class="auto-style15" />
+                  &nbsp;
+                  <a href="GelenMesajlar.aspx">  <asp:Label ID="Label2" runat="server" Text="Gelen Mesajlar" CssClass="auto-style15"></asp:Label></a>
+                    <br />
+                    <br class="auto-style15" />
+                    &nbsp;
+                   <a href="SiparisBilgileri.aspx"><asp:Label ID="Label3" runat="server" Text="Sipariş Bilgileri" CssClass="auto-style15"></asp:Label></a> 
+                    <br />
+                    <br class="auto-style15" />
+
+                    <div class="auto-style11">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <div class="auto-style12">
+                            </div>
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+           
+           
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>
